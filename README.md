@@ -5,10 +5,6 @@ actionText: Get started →
 actionLink: /guide/
 ---
 
-<div style="text-align: center">
-  <Bit/>
-</div>
-
 <div class="features">
   <div class="feature">
     <h2>Simplicity First</h2>
