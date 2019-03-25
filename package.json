@@ -1,0 +1,19 @@
+{
+  "name": "codesandbox-vuepress",
+  "version": "1.0.0",
+  "description": "VuePress starter template for CodeSandBox",
+  "author": "Victoria Bergquist",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicbergquist/codesandbox-vuepress.git"
+  },
+  "devDependencies": {
+    "@vuepress/theme-vue": "^1.0.0-alpha.44",
+    "vuepress": "^1.0.0-alpha.44"
+  }
+}
