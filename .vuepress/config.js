@@ -1,4 +1,4 @@
-// THIS IS FILE IS OPTIONAL, you can delete it if you don's want to use it
+// THIS IS FILE IS OPTIONAL, you can delete it if you don't want to use it
 
 // config.js is the entry file for your VuePress app configuration
 // It can also be written in yml or toml instead of js
