@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vicbergquist/codesandbox-vuepress.git"
+    "url": "https://github.com/vicbergquist/codesandbox-vuepress"
   },
   "devDependencies": {
     "@vuepress/theme-vue": "^1.0.0-alpha.44",
