@@ -8,7 +8,6 @@
 module.exports = {
   title: 'VuePress + CodeSandbox',
   description: 'VuePress starter template for CodeSandbox',
-  theme: '@vuepress/vue',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
