@@ -13,6 +13,6 @@
     "url": "https://github.com/vicbergquist/codesandbox-vuepress"
   },
   "devDependencies": {
-    "vuepress": "^1.0.0-alpha.46"
+    "vuepress": "^1.0.0-alpha.48"
   }
 }
