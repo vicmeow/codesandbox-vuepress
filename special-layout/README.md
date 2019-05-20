@@ -4,7 +4,7 @@ layout: SpecialLayout
 
 # Example
 
-This is markdown content rendered inside a special layout component. We have specified a layout component in yaml front matter that VuePress will use for this specific page. This layout component can be found here: `.vuepress/components/SpecialLayout.vue`.
+This is markdown content rendered inside a special layout component. We have specified the name of a special layout in yaml front matter, which tells VuePress to render the content of this page using the component of the same name. This layout component can be found here: `.vuepress/components/SpecialLayout.vue`.
 
 ```yaml
 ---

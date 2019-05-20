@@ -37,7 +37,7 @@ You can also add your own styles or override general styles by creating a `index
 
 ### Custom Page Classes
 
-VuePress also lets you specify custom classes for your pages in YAML front matter. This can be useful when want to target specific content on a page. Use `pageClass` to add a class to the theme container div tag:
+VuePress also lets you specify custom classes for your pages in YAML front matter. This can be useful when you want to target specific content on a page. Use `pageClass` to add a class to the theme container div tag:
 
 ```yaml
 ---
@@ -53,7 +53,7 @@ Then you can write CSS to target that specific page in `.vuepress/styles/index.s
 }
 ```
 
-As an example, we have added a `pageClass` of `custom-page-class` to this page and targeted this code block with a language of `example`:
+As an example, we have added a `pageClass` of `custom-page-class` to this page and targeted this code block that has a language of `example` with the styles from above:
 
 ```example
 A code block with a custom language targeted with a custom page class.
@@ -61,7 +61,7 @@ A code block with a custom language targeted with a custom page class.
 
 ### Ejecting
 
-If you would like to customize the default theme even more and have more control over how the different components look like, you can eject the theme.
+If you would like to customize the default theme even more and have full control over how the different components look like, you can eject the default theme.
 
 ::: warning
 When ejecting you are on your own and **will not** be receiving future updates or bug fixes to the default theme even if you upgrade your VuePress version.
@@ -81,11 +81,11 @@ To do this, you add YAML front matter to your markdown file and specify the layo
  ---
  ```
 
- This component should be located in the `components` directory. Example: try the [Special Layout](/special-layout).
+Visit our [Special Layout Page](/special-layout) to see an example of a custom page layout in action. This component is located in the `.vuepress/components` directory, which is where you register custom layout components and other components you want to have global access to.
 
 ## Custom Themes
 
-When you want to create a custom VuePress theme, you add a `theme` directory under `.vuepress` (`.vuepress/theme`) and start by adding a `Layout.vue` file. From there it's the same as developing a normal Vue application. It is entirely up to you how to organize your theme.
+When you want to create a custom VuePress theme, you add a `theme` directory under `.vuepress` (`.vuepress/theme`) and start by adding a `Layout.vue` file. From there it's the same as developing a normal Vue application. It is entirely up to you how you organize your theme.
 
 The content of your `markdown` files to be rendered will be available as a special global component called `<Content/>`. You will need to add this somewhere in your layout in order to render and display the content of the page/markdown file. 
 
